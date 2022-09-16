@@ -4,47 +4,28 @@ body{
 
 
 h1{
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+  
 
 }
 
 .foto-omne{
     width:200px;
     border-radius: 50%;
-    float:left; 
+    float:inline-end; 
+    display: block;  
+margin-left: auto;  
+margin-right: auto;  
+padding: 5px;  
+
 }
 
-.hlavicka {
-    background-image: url(header.jpeg);
-    background-size: cover;
-    padding: 150px 30px;
-    height: 200px;
-    
-}
-
-.menu {
-    margin:0;
-    padding:0;
+.predstaveni{
     text-align: center;
-    background-color: #282425;
-}
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-.menu li {
-    display:inline-block;
-    
-
-}
-
-.menu a{
-    display: inline-block;
-    color:white;
-    text-decoration: none;
-    padding: 20px 30px;
-}
-
-.menu a:hover,
-.menu a:focus,
-.menu a:active {
-    background-color: #756158;
 }
